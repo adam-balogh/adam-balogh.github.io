@@ -6,7 +6,7 @@ nav:
     - resource-library/index.md
     - Learning Materials:
       - Some advice if you're just starting out your Technical Writing career: resource-library/learning-materials/some-advice.md
-      - What makes good and bad documentation?: resource-library/what-makes-doc-good-bad.md
+      - What makes good and bad documentation?: resource-library/learning-materials/what-makes-doc-good-bad.md
     - Advanced Topics:
       - How to Not Suffer the Curse of Knowledge: index.md
     - API documentation:

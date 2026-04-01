@@ -1,5 +1,5 @@
 ---
-title:
+title: Some advice if you're just starting out your Technical Writing career
 tags:
   - carreer
   - onboarding

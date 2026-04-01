@@ -6,7 +6,7 @@ tags:
   - learning
 ---
 
-!!! abstract
+!!! abstract ""
 
     **Source: https://www.dpconline.org/digipres/implement-digipres/digital-preservation-documentation-guide/digital-preservation-documentation-good-bad**
 
