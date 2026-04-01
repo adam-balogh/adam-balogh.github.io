@@ -1,0 +1,22 @@
+nav:
+  - About: index.md
+  - References:
+    - handbooks/index.md
+  - Resource library:
+    - resource-library/index.md
+    - Learning Materials:
+      - Some Advice If You're Just Starting Out Your Technical Writing Career: resource-library/learning-materials/some-advice.md
+    - Advanced Topics:
+      - How to Not Suffer the Curse of Knowledge: index.md
+    - API documentation:
+      - The Core of REST in Modern Development: index.md
+    - Documentation Accessibility:
+      - Designing for users with disabilities: index.md
+    - Docs-as-Code, CLI & Tools:
+      - Essential Tool Types for Technical Writing in a Docs-as-Code Environment: index.md
+    - AI and Prompting:
+      - Developing an AI strategy for documentation: index.md
+    - DITA:
+      - What is Darwin Information Typing Architecture (DITA)?: index.md
+    - Project and Team Management & Leadership:
+      - Should Documentation Be Part of the Definition of Done?: index.md

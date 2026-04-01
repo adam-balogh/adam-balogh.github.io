@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block announce %}
+  <p>Default announcement</p>
+{% endblock %}
+
+{% block content %}
+  {% if page.edit_url or config.repo_url %}
+    {# Custom Redmine Variables #}
+    {% set report_url = "#" %}
+    {% set report_subject = "Documentation Issue: " ~ page.title %}
+    {% set base_url = config.site_url if config.site_url else "" %}
+    {% set full_url = base_url ~ page.url %}
+    {% set report_body = "\n\n---\n**Source Page:** [" ~ page.title ~ "](" ~ full_url ~ ")" %}
+
+    {# We inject the button into the theme's existing container logic via CSS #}
+    <style>
+      /* This ensures our custom button aligns perfectly with native ones */
+      .md-content__button.report-icon {
+        display: inline-block;
+        vertical-align: top;
+      }
+    </style>
+
+    <div class="md-content__inner md-typeset" style="text-align: right; margin-bottom: -2em;">
+      <a href="{{ report_url }}&issue%5Bsubject%5D={{ report_subject | urlencode }}&issue%5Bdescription%5D={{ report_body | urlencode }}" 
+         title="Report an issue in Redmine"
+         class="md-content__button md-icon report-icon"
+         target="_blank">
+        {% include ".icons/material/alert-octagon-outline.svg" %}
+      </a>
+    </div>
+  {% endif %}
+
+  {{ super() }}
+{% endblock %}

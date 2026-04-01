@@ -1,0 +1,149 @@
+/* For light mode (the default scheme) */
+[data-md-color-scheme="default"] .md-banner {
+    background-color: #1374f3;
+    color: white;
+  }
+
+/* For dark mode (the "slate" scheme) */
+[data-md-color-scheme="slate"] .md-banner {
+    background-color: #3d5240;
+    color: white;
+  }
+
+/* Style for the back to top button in light mode */
+[data-md-color-scheme="default"] .md-top.md-icon {
+  background-color: #f5f3f3;
+  color: #8e8787;
+}
+
+/* Style for the back to top button in dark mode */
+[data-md-color-scheme="slate"] .md-top.md-icon {
+  background-color: #343538;
+  color: #f0f0f0;
+}
+
+/* Style for the button in light mode */
+[data-md-color-scheme="default"] .md-top.md-icon:hover {
+  background-color: #354984;
+  color: #f0f0f0;
+}
+
+/* Style for the button in dark mode */
+[data-md-color-scheme="slate"] .md-top.md-icon:hover {
+  background-color: #3d5240;
+  color: #f0f0f0;
+}
+
+/*Color for the link text in light mode*/
+
+[data-md-color-scheme="default"] .md-banner > .md-typeset a {
+  color: white;
+  font-weight: bold;
+}
+
+[data-md-color-scheme="default"] .md-banner > .md-typeset a:hover {
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+
+/*Color for the link text in dark mode*/
+
+[data-md-color-scheme="slate"] .md-banner > .md-typeset a {
+  color: white;
+  font-weight: bold;
+}
+
+[data-md-color-scheme="slate"] .md-banner > .md-typeset a:hover {
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+/*Image definitions*/
+
+.md-typeset img {
+  display: block;
+  border: 1px solid #797979;
+  border-radius: 4px;
+  padding: 5px;
+  width: 800px;
+  margin: auto;
+}
+
+.md-typeset img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/*Modal*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  cursor: zoom-out;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /* Resetting your global img styles for the modal version */
+  border: none;
+  padding: 0;
+  width: auto;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+/* Tab switcher on the capabilities index page */
+
+/* Dynamic Tabs Logic */
+#dynamic-capabilities-tabs .tabbed-set > input {
+  display: none; /* Hide the actual radio buttons */
+}
+
+/* Hide all blocks by default */
+#dynamic-capabilities-tabs .tabbed-content .tabbed-block {
+  display: none;
+}
+
+/* Show the block that corresponds to the checked radio button */
+#dynamic-capabilities-tabs input:nth-child(1):checked ~ .tabbed-content .tabbed-block:nth-child(1),
+#dynamic-capabilities-tabs input:nth-child(2):checked ~ .tabbed-content .tabbed-block:nth-child(2),
+#dynamic-capabilities-tabs input:nth-child(3):checked ~ .tabbed-content .tabbed-block:nth-child(3),
+#dynamic-capabilities-tabs input:nth-child(4):checked ~ .tabbed-content .tabbed-block:nth-child(4),
+#dynamic-capabilities-tabs input:nth-child(5):checked ~ .tabbed-content .tabbed-block:nth-child(5) {
+  display: block;
+  animation: tabFadeIn 0.3s ease-in-out;
+}
+
+/* Style the labels to show which one is active */
+#dynamic-capabilities-tabs input:nth-child(1):checked ~ .tabbed-labels label:nth-child(1),
+#dynamic-capabilities-tabs input:nth-child(2):checked ~ .tabbed-labels label:nth-child(2),
+#dynamic-capabilities-tabs input:nth-child(3):checked ~ .tabbed-labels label:nth-child(3),
+#dynamic-capabilities-tabs input:nth-child(4):checked ~ .tabbed-labels label:nth-child(4),
+#dynamic-capabilities-tabs input:nth-child(5):checked ~ .tabbed-labels label:nth-child(5) {
+  border-bottom: 2px solid var(--md-typeset-a-color);
+  color: var(--md-typeset-a-color);
+}
+
+@keyframes tabFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

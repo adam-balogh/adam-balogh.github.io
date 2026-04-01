@@ -1,0 +1,115 @@
+INHERIT: nav.yml
+site_name: Yet Another Techwriter Repo
+site_description: Ádám Balogh's Personal Site
+
+docs_dir: docs
+use_directory_urls: true
+
+repo_url: https://github.com/adam-balogh/adam-balogh.github.io
+site_url: https://adam-balogh.github.io/
+repo_name: adam-balogh.github.io
+edit_uri: edit/main/docs/
+view_uri: blob/main/docs/
+
+theme:
+  variant: classic
+  font:
+    text: Cascade Mono
+  icon:
+    admonition:
+      tip: material/layers-search-outline
+  custom_dir: overrides
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - announce.dismiss
+    - content.tooltips
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.prune
+    - navigation.footer
+    - toc.follow
+    - navigation.top
+    - content.code.annotate
+    - content.code.copy
+    - content.tags
+    - navigation.indexes
+    - content.action.edit
+    - content.action.view
+  color_mode: auto
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js?v=1.0.3 # Update this number whenever you deploy a JS change
+
+extra:
+  social:
+    - icon: fontawesome/brands/slack
+      link: https://pronovix.slack.com/archives/C906Z9309
+      name: Ask the techwriters in Slack
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.magiclink
+  - toc:
+      permalink: true
+      permalink_title: Copy link
+  - pymdownx.details
+  - pymdownx.blocks.caption
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - md_in_html
+  - pymdownx.emoji:
+     emoji_index: !!python/name:material.extensions.emoji.twemoji
+     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - sane_lists
+  - tables
+
+plugins:
+  - search
+  - section-index
+  - tags
+  - mkdocstrings:
+    handlers:
+      python:
+        paths: [src]
+        inventories:
+          - https://docs.python.org/3/objects.inv
+        options:
+          docstring_style: google
+          inherited_members: true
+          show_source: false

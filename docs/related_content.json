@@ -1,0 +1,664 @@
+{
+  "Offboarding": [
+    {
+      "title": "SSD Secure Erase (company laptop)",
+      "url": "/handbooks/offboarding/ssd-secure-erase/"
+    }
+  ],
+  "Security": [
+    {
+      "title": "SSD Secure Erase (company laptop)",
+      "url": "/handbooks/offboarding/ssd-secure-erase/"
+    },
+    {
+      "title": "SSO 2 - HybridAuth Connect",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/sso-2-hybridauth-connect/"
+    },
+    {
+      "title": "Single Sign-On (SSO) - OpenID Connect & SAML",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/sso-openid-connect-saml/"
+    },
+    {
+      "title": "Bitwarden",
+      "url": "/handbooks/machine-and-tool-setup/bitwarden/"
+    },
+    {
+      "title": "Yubikey for local authentication",
+      "url": "/handbooks/machine-and-tool-setup/local-auth-yubikey/"
+    },
+    {
+      "title": "OpenVPN",
+      "url": "/handbooks/machine-and-tool-setup/openvpn/"
+    },
+    {
+      "title": "How to restrict the visibility of shared documents on Google Drive",
+      "url": "/handbooks/company-culture-and-practices/shared-documents-on-google-drive/"
+    }
+  ],
+  "Hardware": [
+    {
+      "title": "SSD Secure Erase (company laptop)",
+      "url": "/handbooks/offboarding/ssd-secure-erase/"
+    }
+  ],
+  "Policy": [
+    {
+      "title": "SSD Secure Erase (company laptop)",
+      "url": "/handbooks/offboarding/ssd-secure-erase/"
+    },
+    {
+      "title": "Meeting guidelines",
+      "url": "/handbooks/company-culture-and-practices/meeting-guidelines/"
+    },
+    {
+      "title": "How to restrict the visibility of shared documents on Google Drive",
+      "url": "/handbooks/company-culture-and-practices/shared-documents-on-google-drive/"
+    },
+    {
+      "title": "Change management process",
+      "url": "/handbooks/company-culture-and-practices/change-management-process/"
+    }
+  ],
+  "Onboarding": [
+    {
+      "title": "Resources for mentors",
+      "url": "/handbooks/knowledge-sharing/resources-for-mentors/"
+    },
+    {
+      "title": "Internal knowledge sharing series",
+      "url": "/handbooks/knowledge-sharing/internal-knowledge-sharing-series/"
+    },
+    {
+      "title": "Setting up the Drupal kata exercises for mentees",
+      "url": "/handbooks/knowledge-sharing/drupal-kata/"
+    },
+    {
+      "title": "Company Profiles",
+      "url": "/handbooks/machine-and-tool-setup/company-profiles/"
+    },
+    {
+      "title": "Bitwarden",
+      "url": "/handbooks/machine-and-tool-setup/bitwarden/"
+    },
+    {
+      "title": "Ubuntu installation & setup",
+      "url": "/handbooks/machine-and-tool-setup/ubuntu/"
+    },
+    {
+      "title": "Slack setup for mobile devices",
+      "url": "/handbooks/machine-and-tool-setup/slack-mobile-guide/"
+    },
+    {
+      "title": "Moving from macOS to Ubuntu",
+      "url": "/handbooks/machine-and-tool-setup/from-macos-to-ubuntu/"
+    },
+    {
+      "title": "Yubikey for local authentication",
+      "url": "/handbooks/machine-and-tool-setup/local-auth-yubikey/"
+    },
+    {
+      "title": "OpenVPN",
+      "url": "/handbooks/machine-and-tool-setup/openvpn/"
+    },
+    {
+      "title": "Account creation",
+      "url": "/handbooks/onboarding/account-creation/"
+    }
+  ],
+  "Handbook": [
+    {
+      "title": "Resources for mentors",
+      "url": "/handbooks/knowledge-sharing/resources-for-mentors/"
+    },
+    {
+      "title": "Internal knowledge sharing series",
+      "url": "/handbooks/knowledge-sharing/internal-knowledge-sharing-series/"
+    },
+    {
+      "title": "Power without coercion",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/power-without-coercion/"
+    },
+    {
+      "title": "Meeting guidelines",
+      "url": "/handbooks/company-culture-and-practices/meeting-guidelines/"
+    },
+    {
+      "title": "How to restrict the visibility of shared documents on Google Drive",
+      "url": "/handbooks/company-culture-and-practices/shared-documents-on-google-drive/"
+    },
+    {
+      "title": "Change management process",
+      "url": "/handbooks/company-culture-and-practices/change-management-process/"
+    },
+    {
+      "title": "Time tracking with Toggl Track",
+      "url": "/handbooks/company-culture-and-practices/task-and-time-tracking/toggl/"
+    },
+    {
+      "title": "Task management with Redmine",
+      "url": "/handbooks/company-culture-and-practices/task-and-time-tracking/redmine/"
+    }
+  ],
+  "Culture": [
+    {
+      "title": "Resources for mentors",
+      "url": "/handbooks/knowledge-sharing/resources-for-mentors/"
+    },
+    {
+      "title": "Internal knowledge sharing series",
+      "url": "/handbooks/knowledge-sharing/internal-knowledge-sharing-series/"
+    },
+    {
+      "title": "Power without coercion",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/power-without-coercion/"
+    },
+    {
+      "title": "Meeting guidelines",
+      "url": "/handbooks/company-culture-and-practices/meeting-guidelines/"
+    }
+  ],
+  "Training": [
+    {
+      "title": "Internal knowledge sharing series",
+      "url": "/handbooks/knowledge-sharing/internal-knowledge-sharing-series/"
+    },
+    {
+      "title": "Setting up the Drupal kata exercises for mentees",
+      "url": "/handbooks/knowledge-sharing/drupal-kata/"
+    },
+    {
+      "title": "hook_update_N(), node_access hooks and automated (kernel) testing",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/hook-update-node-access-aut-testing/"
+    },
+    {
+      "title": "Frontend QA (Linting, Jest, React Testing Library)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/frontend-qa/"
+    },
+    {
+      "title": "Advanced JavaScript concepts",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/advanced-javascript-concepts/"
+    },
+    {
+      "title": "FETA infrastructure (Webpack, CICD, Package management)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/feta-infrastructure/"
+    },
+    {
+      "title": "Decoupled Drupal in practice",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/decoupled-drupal-in-practice/"
+    },
+    {
+      "title": "SSO 2 - HybridAuth Connect",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/sso-2-hybridauth-connect/"
+    },
+    {
+      "title": "Object-oriented programming (OOP)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/object-oriented-programming/"
+    },
+    {
+      "title": "Search Engine Optimization (SEO)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/search-engine-optimization/"
+    },
+    {
+      "title": "Agile methodology in practice",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/agile-methodology/"
+    },
+    {
+      "title": "Drupal theming exercises",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/drupal-theming-exercises/"
+    },
+    {
+      "title": "Swagger UI customizations",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/swagger-ui/"
+    },
+    {
+      "title": "Config schema",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/config-schema/"
+    },
+    {
+      "title": "Content & user migration best practices",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/content-user-migration-bp/"
+    },
+    {
+      "title": "Power without coercion",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/power-without-coercion/"
+    },
+    {
+      "title": "Single Sign-On (SSO) - OpenID Connect & SAML",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/sso-openid-connect-saml/"
+    }
+  ],
+  "Drupal": [
+    {
+      "title": "Setting up the Drupal kata exercises for mentees",
+      "url": "/handbooks/knowledge-sharing/drupal-kata/"
+    },
+    {
+      "title": "hook_update_N(), node_access hooks and automated (kernel) testing",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/hook-update-node-access-aut-testing/"
+    },
+    {
+      "title": "Decoupled Drupal in practice",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/decoupled-drupal-in-practice/"
+    },
+    {
+      "title": "Drupal theming exercises",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/drupal-theming-exercises/"
+    },
+    {
+      "title": "Config schema",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/config-schema/"
+    },
+    {
+      "title": "Content & user migration best practices",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/content-user-migration-bp/"
+    }
+  ],
+  "Pronovix Academy": [
+    {
+      "title": "hook_update_N(), node_access hooks and automated (kernel) testing",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/hook-update-node-access-aut-testing/"
+    },
+    {
+      "title": "Frontend QA (Linting, Jest, React Testing Library)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/frontend-qa/"
+    },
+    {
+      "title": "Advanced JavaScript concepts",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/advanced-javascript-concepts/"
+    },
+    {
+      "title": "FETA infrastructure (Webpack, CICD, Package management)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/feta-infrastructure/"
+    },
+    {
+      "title": "Decoupled Drupal in practice",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/decoupled-drupal-in-practice/"
+    },
+    {
+      "title": "SSO 2 - HybridAuth Connect",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/sso-2-hybridauth-connect/"
+    },
+    {
+      "title": "Object-oriented programming (OOP)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/object-oriented-programming/"
+    },
+    {
+      "title": "Search Engine Optimization (SEO)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/search-engine-optimization/"
+    },
+    {
+      "title": "Agile methodology in practice",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/agile-methodology/"
+    },
+    {
+      "title": "Drupal theming exercises",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/drupal-theming-exercises/"
+    },
+    {
+      "title": "Swagger UI customizations",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/swagger-ui/"
+    },
+    {
+      "title": "Config schema",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/config-schema/"
+    },
+    {
+      "title": "Content & user migration best practices",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/content-user-migration-bp/"
+    },
+    {
+      "title": "Power without coercion",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/power-without-coercion/"
+    },
+    {
+      "title": "Single Sign-On (SSO) - OpenID Connect & SAML",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/sso-openid-connect-saml/"
+    }
+  ],
+  "Backend": [
+    {
+      "title": "hook_update_N(), node_access hooks and automated (kernel) testing",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/hook-update-node-access-aut-testing/"
+    },
+    {
+      "title": "Decoupled Drupal in practice",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/decoupled-drupal-in-practice/"
+    },
+    {
+      "title": "Object-oriented programming (OOP)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/object-oriented-programming/"
+    },
+    {
+      "title": "Config schema",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/config-schema/"
+    },
+    {
+      "title": "Content & user migration best practices",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/content-user-migration-bp/"
+    }
+  ],
+  "Testing": [
+    {
+      "title": "hook_update_N(), node_access hooks and automated (kernel) testing",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/hook-update-node-access-aut-testing/"
+    }
+  ],
+  "Frontend": [
+    {
+      "title": "Frontend QA (Linting, Jest, React Testing Library)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/frontend-qa/"
+    },
+    {
+      "title": "Advanced JavaScript concepts",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/advanced-javascript-concepts/"
+    },
+    {
+      "title": "FETA infrastructure (Webpack, CICD, Package management)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/feta-infrastructure/"
+    },
+    {
+      "title": "Drupal theming exercises",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/drupal-theming-exercises/"
+    },
+    {
+      "title": "Swagger UI customizations",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/swagger-ui/"
+    },
+    {
+      "title": "DP Theme",
+      "url": "/pronovix-capabilities/themes/dp-theme/"
+    },
+    {
+      "title": "Zero Gravity",
+      "url": "/pronovix-capabilities/themes/zero-gravity/"
+    }
+  ],
+  "QA": [
+    {
+      "title": "Frontend QA (Linting, Jest, React Testing Library)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/frontend-qa/"
+    }
+  ],
+  "JavaScript": [
+    {
+      "title": "Advanced JavaScript concepts",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/advanced-javascript-concepts/"
+    }
+  ],
+  "CI/CD": [
+    {
+      "title": "FETA infrastructure (Webpack, CICD, Package management)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/feta-infrastructure/"
+    }
+  ],
+  "Decoupled": [
+    {
+      "title": "Decoupled Drupal in practice",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/decoupled-drupal-in-practice/"
+    }
+  ],
+  "PHP": [
+    {
+      "title": "Object-oriented programming (OOP)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/object-oriented-programming/"
+    }
+  ],
+  "SEO": [
+    {
+      "title": "Search Engine Optimization (SEO)",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/search-engine-optimization/"
+    }
+  ],
+  "Agile": [
+    {
+      "title": "Agile methodology in practice",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/agile-methodology/"
+    }
+  ],
+  "Process": [
+    {
+      "title": "Agile methodology in practice",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/agile-methodology/"
+    },
+    {
+      "title": "Meeting guidelines",
+      "url": "/handbooks/company-culture-and-practices/meeting-guidelines/"
+    },
+    {
+      "title": "Change management process",
+      "url": "/handbooks/company-culture-and-practices/change-management-process/"
+    },
+    {
+      "title": "Time tracking with Toggl Track",
+      "url": "/handbooks/company-culture-and-practices/task-and-time-tracking/toggl/"
+    },
+    {
+      "title": "Task management with Redmine",
+      "url": "/handbooks/company-culture-and-practices/task-and-time-tracking/redmine/"
+    }
+  ],
+  "Workflow": [
+    {
+      "title": "Agile methodology in practice",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/agile-methodology/"
+    },
+    {
+      "title": "Change management process",
+      "url": "/handbooks/company-culture-and-practices/change-management-process/"
+    }
+  ],
+  "Swagger UI": [
+    {
+      "title": "Swagger UI customizations",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/swagger-ui/"
+    }
+  ],
+  "Configuration": [
+    {
+      "title": "Config schema",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/config-schema/"
+    }
+  ],
+  "Migration": [
+    {
+      "title": "Content & user migration best practices",
+      "url": "/handbooks/knowledge-sharing/pronovix-academy-courses/content-user-migration-bp/"
+    },
+    {
+      "title": "Moving from macOS to Ubuntu",
+      "url": "/handbooks/machine-and-tool-setup/from-macos-to-ubuntu/"
+    }
+  ],
+  "Setup": [
+    {
+      "title": "Company Profiles",
+      "url": "/handbooks/machine-and-tool-setup/company-profiles/"
+    },
+    {
+      "title": "Bitwarden",
+      "url": "/handbooks/machine-and-tool-setup/bitwarden/"
+    },
+    {
+      "title": "Ubuntu installation & setup",
+      "url": "/handbooks/machine-and-tool-setup/ubuntu/"
+    },
+    {
+      "title": "Slack setup for mobile devices",
+      "url": "/handbooks/machine-and-tool-setup/slack-mobile-guide/"
+    },
+    {
+      "title": "Moving from macOS to Ubuntu",
+      "url": "/handbooks/machine-and-tool-setup/from-macos-to-ubuntu/"
+    },
+    {
+      "title": "Yubikey for local authentication",
+      "url": "/handbooks/machine-and-tool-setup/local-auth-yubikey/"
+    },
+    {
+      "title": "OpenVPN",
+      "url": "/handbooks/machine-and-tool-setup/openvpn/"
+    },
+    {
+      "title": "Account creation",
+      "url": "/handbooks/onboarding/account-creation/"
+    }
+  ],
+  "Chrome": [
+    {
+      "title": "Company Profiles",
+      "url": "/handbooks/machine-and-tool-setup/company-profiles/"
+    }
+  ],
+  "Browser": [
+    {
+      "title": "Company Profiles",
+      "url": "/handbooks/machine-and-tool-setup/company-profiles/"
+    }
+  ],
+  "Bitwarden": [
+    {
+      "title": "Bitwarden",
+      "url": "/handbooks/machine-and-tool-setup/bitwarden/"
+    }
+  ],
+  "Password": [
+    {
+      "title": "Bitwarden",
+      "url": "/handbooks/machine-and-tool-setup/bitwarden/"
+    }
+  ],
+  "Ubuntu": [
+    {
+      "title": "Ubuntu installation & setup",
+      "url": "/handbooks/machine-and-tool-setup/ubuntu/"
+    },
+    {
+      "title": "Moving from macOS to Ubuntu",
+      "url": "/handbooks/machine-and-tool-setup/from-macos-to-ubuntu/"
+    }
+  ],
+  "Linux": [
+    {
+      "title": "Ubuntu installation & setup",
+      "url": "/handbooks/machine-and-tool-setup/ubuntu/"
+    }
+  ],
+  "Dev Environment": [
+    {
+      "title": "Ubuntu installation & setup",
+      "url": "/handbooks/machine-and-tool-setup/ubuntu/"
+    }
+  ],
+  "Slack": [
+    {
+      "title": "Slack setup for mobile devices",
+      "url": "/handbooks/machine-and-tool-setup/slack-mobile-guide/"
+    }
+  ],
+  "Mobile": [
+    {
+      "title": "Slack setup for mobile devices",
+      "url": "/handbooks/machine-and-tool-setup/slack-mobile-guide/"
+    }
+  ],
+  "macOS": [
+    {
+      "title": "Moving from macOS to Ubuntu",
+      "url": "/handbooks/machine-and-tool-setup/from-macos-to-ubuntu/"
+    }
+  ],
+  "Yubikey": [
+    {
+      "title": "Yubikey for local authentication",
+      "url": "/handbooks/machine-and-tool-setup/local-auth-yubikey/"
+    }
+  ],
+  "OpenVPN": [
+    {
+      "title": "OpenVPN",
+      "url": "/handbooks/machine-and-tool-setup/openvpn/"
+    }
+  ],
+  "Network": [
+    {
+      "title": "OpenVPN",
+      "url": "/handbooks/machine-and-tool-setup/openvpn/"
+    }
+  ],
+  "Google Drive": [
+    {
+      "title": "How to restrict the visibility of shared documents on Google Drive",
+      "url": "/handbooks/company-culture-and-practices/shared-documents-on-google-drive/"
+    }
+  ],
+  "Toggl": [
+    {
+      "title": "Time tracking with Toggl Track",
+      "url": "/handbooks/company-culture-and-practices/task-and-time-tracking/toggl/"
+    }
+  ],
+  "Redmine": [
+    {
+      "title": "Task management with Redmine",
+      "url": "/handbooks/company-culture-and-practices/task-and-time-tracking/redmine/"
+    }
+  ],
+  "Account": [
+    {
+      "title": "Account creation",
+      "url": "/handbooks/onboarding/account-creation/"
+    }
+  ],
+  "Handbooks": [
+    {
+      "title": "Account creation",
+      "url": "/handbooks/onboarding/account-creation/"
+    }
+  ],
+  "Recipe": [
+    {
+      "title": "REST API recipe",
+      "url": "/pronovix-capabilities/rest-api-documentation-capabilities/rest-api-recipe/"
+    },
+    {
+      "title": "AsyncAPI recipe",
+      "url": "/pronovix-capabilities/async-api-documentation-capabilities/asyncapi-recipe/"
+    },
+    {
+      "title": "Key considerations and limitations of Drupal recipes",
+      "url": "/pronovix-capabilities/recipes/key-considerations-and-limitations-of-recipes/"
+    }
+  ],
+  "API Catalog": [
+    {
+      "title": "API Catalog management",
+      "url": "/pronovix-capabilities/api-catalog/api-catalog-management/"
+    }
+  ],
+  "API Documentation": [
+    {
+      "title": "API Catalog management",
+      "url": "/pronovix-capabilities/api-catalog/api-catalog-management/"
+    }
+  ],
+  "PX Core module": [
+    {
+      "title": "API Catalog management",
+      "url": "/pronovix-capabilities/api-catalog/api-catalog-management/"
+    },
+    {
+      "title": "Vocabulary-based Access Control",
+      "url": "/pronovix-capabilities/access-control/vocabulary-based-access-control/"
+    }
+  ],
+  "Theming": [
+    {
+      "title": "DP Theme",
+      "url": "/pronovix-capabilities/themes/dp-theme/"
+    },
+    {
+      "title": "Zero Gravity",
+      "url": "/pronovix-capabilities/themes/zero-gravity/"
+    }
+  ]
+}
